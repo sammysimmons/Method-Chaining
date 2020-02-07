@@ -1,39 +1,51 @@
-
-#container
-{
-	display: flex;		/* makes container a flexbox*/
-	flex-flow: row wrap; 	/* layout the boxes in rows and wrap them*/
-	box-sizing:border-box;
-	margin-right:auto;
-	margin-left:auto;
-	max-width:1050px;	
-}
-.bottom_button{
-	display: flex;
-	box-sizing:border-box;
-	border-radius: 4px;
-	width: 100%;
-	background-color:rgba(129, 187, 201,.85);
-	text-align: center;
-	padding: 1em .75em;
-	text-decoration: none;
-	color: #fff;
-
+#container {
+    display: flex;
+    /* makes container a flexbox*/
+    flex-flow: row wrap;
+    /* layout the boxes in rows and wrap them*/
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1050px;
 }
 
-.card_bottom{
-	display: flex;
-	flex-flow:column;
+.bottom_button {
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+    padding: 1em .75em;
+    text-decoration: none;
+    color: rgb(0, 119, 255);
 }
 
-.card{
-	flex:1; /* */
-	display: flex;	/* make the contents controllable by flexbox*/
-	flex-flow:column;	/* */
-	max-width: 240px; /**/
-	margin: 10px;
-	padding: 20px;
-	background-color: #fff;
+.makeRed {
+    background-color: rgba(245, 0, 0, 0.85);
+}
+
+.makeBorder {
+    border-color: rgb(174, 0, 255);
+    border-radius: 4px;
+}
+
+.card_bottom {
+    display: flex;
+    flex-flow: column;
+}
+
+.card {
+    flex: 1;
+    /* */
+    display: flex;
+    /* make the contents controllable by flexbox*/
+    flex-flow: column;
+    /* */
+    max-width: 240px;
+    /**/
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
 }
 
 
@@ -42,18 +54,18 @@ Navigation
 
 **************************/
 
-
-.underline{
-  text-decoration:underline;
-}
-.border{
-  border: solid 5px #ccc;
+.underline {
+    text-decoration: underline;
 }
 
-.makeRed{
-	background-color: red;
+.border {
+    border: solid 5px #ccc;
 }
 
-.makeBorder{
-	border:2px;
+.makeRed {
+    background-color: red;
+}
+
+.makeBorder {
+    border: 2px;
 }
